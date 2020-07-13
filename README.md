@@ -8,7 +8,7 @@ pip install django-tctip
 
 step 2
 配置中添加应用
-```
+```python
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -19,4 +19,13 @@ INSTALLED_APPS = [
     'django_tctip',
 ]
 ```
-添加第三方静态文件路径
+
+step 3
+生成数据表
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+step 4
+前往管理界面添加数据即可显示到前台
