@@ -52,8 +52,9 @@ step 4
 step 5
 前往管理界面添加数据即可显示到前台
 
-![image](https://user-images.githubusercontent.com/30201215/87426543-e5c72a00-c611-11ea-9168-fec998895240.png)
+![](https://ftp.bmp.ovh/imgs/2020/07/012712dcb4b228e2.png)
 
-![image](https://user-images.githubusercontent.com/30201215/87426590-fe374480-c611-11ea-895b-d587e81b7c7e.png)
+![](https://ftp.bmp.ovh/imgs/2020/07/cc4742af979cac9c.png)
+![](https://ftp.bmp.ovh/imgs/2020/07/505d3218487e1114.png)
 
 说明：django-tctip 是将tctip项目封装成了django的应用，感谢原项目 https://github.com/greedying/tctip 作者和删减版作者
