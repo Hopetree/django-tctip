@@ -14,6 +14,7 @@ class Tip(models.Model):
     name = models.CharField('名称', max_length=20, default='默认提示栏')
     create_date = models.DateTimeField(verbose_name='创建时间', auto_now_add=True)
     is_on = models.BooleanField('是否使用', default=True)
+    minScreenSize = models.IntegerField('最小显示屏幕尺寸', default=1200)
     headText = models.CharField('最上面的文字', max_length=20, default='欢迎打赏支持本站 ^_^')
     siderText = models.CharField('侧边栏文本', max_length=20, default='公告＆打赏＆微信群')
     siderTextTop = models.CharField('侧边栏文本高度调整', max_length=10, default='-72px')

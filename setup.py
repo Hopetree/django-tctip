@@ -3,7 +3,7 @@
 # Date: 2020/7/11
 from setuptools import find_packages, setup
 
-VERSION = '0.1.3'
+VERSION = '1.2.0'
 
 with open('README.md', 'r', encoding='utf-8') as fp:
     long_description = fp.read()

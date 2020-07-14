@@ -7,7 +7,7 @@ from .models import Tip
 @admin.register(Tip)
 class TipAdmin(admin.ModelAdmin):
     fieldsets = (
-        ('基本设置', {'fields': (('name', 'is_on'),
+        ('基本设置', {'fields': (('name', 'is_on', 'minScreenSize'),
                              ('headText', 'siderText'),
                              ('siderTextTop', 'siderBgcolor', 'siderTop'),
                              ('buttomText', 'buttomLink'))}),
