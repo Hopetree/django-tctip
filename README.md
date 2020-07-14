@@ -52,4 +52,4 @@ step 4
 step 5
 前往管理界面添加数据即可显示到前台
 
-说明：django-tctip 是将tctip项目封装成了django的应用，感谢原项目https://github.com/greedying/tctip作者和删减版作者
+说明：django-tctip 是将tctip项目封装成了django的应用，感谢原项目 https://github.com/greedying/tctip 作者和删减版作者
