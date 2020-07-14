@@ -3,6 +3,8 @@
 <link href="{% static 'tctip/css/tctip.min.css' %}" rel="stylesheet">
 <script>
     window.tctipConfig = {
+    //最小显示屏幕尺寸，小于该尺寸的屏幕将不会显示tip
+    minScreenSize: {{tip.minScreenSize}},
 	//最上面的文字
 	headText: "{{tip.headText}}",
 	//侧边栏文本
