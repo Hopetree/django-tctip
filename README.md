@@ -52,7 +52,7 @@ step 4
 step 5
 前往管理界面添加数据即可显示到前台（参数都是可以通过后台配置的，参数的作用可以查看前台注释中描述，比较简单故不做说明）
 
-![](https://ftp.bmp.ovh/imgs/2020/07/012712dcb4b228e2.png)
+![](https://ftp.bmp.ovh/imgs/2020/07/471c08dcb08d47c0.png)
 
 ![](https://ftp.bmp.ovh/imgs/2020/07/cc4742af979cac9c.png)
 ![](https://ftp.bmp.ovh/imgs/2020/07/505d3218487e1114.png)
