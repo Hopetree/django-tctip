@@ -15,10 +15,6 @@
 	siderBgcolor: "{{tip.siderBgcolor}}",
 	//整个侧边栏的高度设置可以px，em，或百分比
 	siderTop: "{{tip.siderTop}}",
-	//底部文字
-	buttomText: "{{tip.buttomText}}",
-	//底部文字链接
-	buttomLink: "{{tip.buttomLink}}",
 	list: {
 	    {% if tip.notice_flag %}
 		notice: {
@@ -26,7 +22,7 @@
 			name: "{{tip.notice_name}}",
 			title: "{{tip.notice_title}}",
 			className: "myR-on",
-			text: '{{tip.notice_text|safe}}'
+			text: "{{tip.notice_text|safe}}"
 		},
 		{% endif %}
 		{% if tip.alipay_flag %}
@@ -49,7 +45,7 @@
 		{% endif %}
 		{% if tip.wechat_flag %}
 		wechat: {
-		    icon: "data:image/png;base64,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",
+		    icon: "{{tip.wechat_icon}}",
 		    name: "{{tip.wechat_name}}",
 			title: "{{tip.wechat_title}}",
 			desc: "{{tip.wechat_desc}}",
