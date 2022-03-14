@@ -6,6 +6,8 @@ from .models import Tip
 
 @admin.register(Tip)
 class TipAdmin(admin.ModelAdmin):
+    list_display = ('name', 'create_date', 'is_on', 'notice_flag',
+                    'alipay_flag', 'weixin_flag', 'wechat_flag')
     fieldsets = (
         ('基本设置', {'fields': (('is_on',),
                              ('name', 'minScreenSize'),
